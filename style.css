@@ -2,7 +2,6 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
     --blue-jeans: #00a6fbff;
     --green-blue-crayola: #0582caff;
     --sapphire-blue: #006494ff;
@@ -20,22 +19,11 @@ body{
     color: var(--prussian-blue);
 }
 
-#center{
-    justify-content: center;
-    align-items: center;
-}
-
 #about_me{
     height: 100vh;
     width: 100%;
     background: hsla(217, 100%, 50%, 1);
-    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-}
-
-footer{
-    position: fixed;
-    bottom: 0;
-    padding: 10px;
+    background: linear-gradient(90deg, var(--blue-jeans) 0%, var(--sapphire-blue) 100%);
+    background: -moz-linear-gradient(90deg, var(--blue-jeans) 0%, var(--sapphire-blue) 100%);
+    background: -webkit-linear-gradient(90deg, var(--blue-jeans) 0%, var(--sapphire-blue) 100%);
 }
