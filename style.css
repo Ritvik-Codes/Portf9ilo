@@ -1,18 +1,19 @@
 /*Color Pallete*/
 body{
+    margin: 0;
+    padding: 0;
     display: flex;
---blue-jeans: #00a6fbff;
---green-blue-crayola: #0582caff;
---sapphire-blue: #006494ff;
---prussian-blue: #003554ff;
---rich-black-fogra-29: #051923ff;
+    --blue-jeans: #00a6fbff;
+    --green-blue-crayola: #0582caff;
+    --sapphire-blue: #006494ff;
+    --prussian-blue: #003554ff;
+    --rich-black-fogra-29: #051923ff;
 
-/* CSS HSL */
---blue-jeans: hsla(200, 100%, 49%, 1);
---green-blue-crayola: hsla(202, 95%, 41%, 1);
---sapphire-blue: hsla(199, 100%, 29%, 1);
---prussian-blue: hsla(202, 100%, 16%, 1);
---rich-black-fogra-29: hsla(200, 75%, 8%, 1);
+    --blue-jeans: hsla(200, 100%, 49%, 1);
+    --green-blue-crayola: hsla(202, 95%, 41%, 1);
+    --sapphire-blue: hsla(199, 100%, 29%, 1);
+    --prussian-blue: hsla(202, 100%, 16%, 1);
+    --rich-black-fogra-29: hsla(200, 75%, 8%, 1);
 }
 
 #text{
@@ -31,5 +32,10 @@ body{
     background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
 }
